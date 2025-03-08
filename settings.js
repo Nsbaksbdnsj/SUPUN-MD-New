@@ -6,18 +6,18 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'SUPUN-MD=CAcikb5b#Gd_8dUqIr8NErEROwtycuDtlirYBoI8qr0L5JSpYaLY' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'SUPUN-MD=uQc2WLrC#hFOnf1pWqTlQ44S0I1w-vBon8dmLz1vk40xdYTgEDyU' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94718461889' : process.env.OWNER_NUMBER,
-MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94782775389' : process.env.OWNER_NUMBER,
+MODE: process.env.MODE === undefined ?"private" : process.env.MODE,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === undefined ?"true" : process.env.AUTO_STATUS_REACT,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
-AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "true" : process.env.AUTO_STICKER,
+AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "false" : process.env.AUTO_STICKER,
 ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
-ANTI_LINK_DEL: process.env.ANTI_LINK_DEL === undefined ? "true" : process.env.ANTI_LINK_DEL,
+ANTI_LINK_DEL: process.env.ANTI_LINK_DEL === undefined ? "false" : process.env.ANTI_LINK_DEL,
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK === undefined ? "false" : process.env.ANTI_LINK_KICK,
 ANTI_CALL: process.env.ANTI_CALL === undefined ? "true" : process.env.ANTI_CALL,    
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
